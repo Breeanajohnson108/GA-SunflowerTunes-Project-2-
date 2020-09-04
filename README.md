@@ -48,9 +48,6 @@ SunflowerTunes uses a Airtable api (https://airtable.com/appwmk7KWbWQtvEEW/api/d
 ![Screenshot](https://i.imgur.com/gFE70Gn.png)
 
 ### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
 
 - Add tune form (adding to exsiting playlist)
@@ -75,10 +72,11 @@ If I come into any problems I plan to reach out to my instrustors and try and ge
 |  Day | Deliverable | Status
 |---|---| ---|
 |Sept. 04| Project Approval | Incomplete
-|Sept. 09| Core Structure Skeleton (HTML, CSS, JS, REACT) | Incomplete
-|Sept. 10| Core MVPs | Incomplete
-|Sept. 11| Post MVPs | Incomplete
-|Sept. 12| Presentations | Incomplete
+|Sept. 07| Core Structure Skeleton (HTML, CSS,) | Incomplete
+|Sept. 08| Core Structure Skeleton (JS, REACT) | Incomplete
+|Sept. 09| Core MVPs | Incomplete
+|Sept. 10| Post MVPs | Incomplete
+|Sept. 11| Presentations | Incomplete
 
 ## Priority Matrix
 
