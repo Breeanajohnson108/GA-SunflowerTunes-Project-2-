@@ -97,7 +97,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Add dislike/like function | H | 1hrs| N/A | N/A |
 | Display User's profile picture | H | 1hrs| N/A | N/A |
 | Add playback function | H | 1hrs| N/A | N/A |
-| Post MVPs | H | 1hrs| N/A | N/A |
+| Post MVPs | L | 1hrs| N/A | N/A |
 | Responsive Site (mobile, tablet, desktop) | H | 3hrs| N/A | N/A |
 | Total | H | 13.5hrs| N/A | N/A |
 
