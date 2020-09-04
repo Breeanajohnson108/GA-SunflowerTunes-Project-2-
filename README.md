@@ -11,7 +11,8 @@ Welcome! SunflowerTunes is a music web application that allows you to jam anywhe
 ## API and Data Sample
 
 SunflowerTunes uses a Spotify api (https://developer.spotify.com/documentation/web-api/) to get user's playlists and allow them to listen to music.
-````
+
+```
 "href": "https://api.spotify.com/v1/playlists/1gEZ8Pq4cNl84HnSY2BQgW",
       "id": "1gEZ8Pq4cNl84HnSY2BQgW",
       "images": [
@@ -27,7 +28,7 @@ SunflowerTunes uses a Spotify api (https://developer.spotify.com/documentation/w
         "external_urls": {
           "spotify": "https://open.spotify.com/user/g46se11z5yt6pqa2l9e17vh3j"
         },
-````	
+```
 
 ## Wireframes
 
