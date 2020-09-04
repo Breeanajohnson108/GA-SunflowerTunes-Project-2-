@@ -32,7 +32,7 @@ SunflowerTunes uses a Spotify api (https://developer.spotify.com/documentation/w
 
 ## Wireframes
 
-![Screenshot](https://imgur.com/WocE8Wq)
+https://imgur.com/WocE8Wq
 
 ## Component Heirarchy
 
