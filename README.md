@@ -10,7 +10,7 @@ Welcome! SunflowerTunes is a music web application that allows you to jam anywhe
 
 ## API and Data Sample
 
-SunflowerTunes uses a Airtable api (https://developer.spotify.com/documentation/web-api/) to get playlists and allow them to listen to tunes.
+SunflowerTunes uses a Airtable api (https://airtable.com/appwmk7KWbWQtvEEW/api/docs#javascript/table:table%201:fields) to get playlists and allow them to listen to tunes.
 
 ```
 [
