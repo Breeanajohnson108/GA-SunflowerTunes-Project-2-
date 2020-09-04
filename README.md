@@ -64,10 +64,6 @@ Heading into project week and with all your planning in mind, consider your Stre
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |Sept. 04| Project Approval | Incomplete
@@ -81,10 +77,6 @@ You are **responsible** for scheduling time with your squad to seek approval for
 ![Screenshot](https://i.imgur.com/xSA76Xh.jpg?1)
 
 ## Timeframes
-
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -100,10 +92,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Post MVPs | L | 1hrs| N/A | N/A |
 | Responsive Site (mobile, tablet, desktop) | H | 3hrs| N/A | N/A |
 | Total | H | 13.5hrs| N/A | N/A |
-
-## Code Snippet
-
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
