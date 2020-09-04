@@ -8,11 +8,11 @@ SunflowerTunes
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Welcome! SunflowerTunes is a music web application that allows you to jam anywhere at anytime.
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+SunflowerTunes uses a Spotify api (https://developer.spotify.com/documentation/web-api/) to get user's playlists and allow them to listent to music.
 
 ## Wireframes
 
