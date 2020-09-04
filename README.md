@@ -10,24 +10,30 @@ Welcome! SunflowerTunes is a music web application that allows you to jam anywhe
 
 ## API and Data Sample
 
-SunflowerTunes uses a Spotify api (https://developer.spotify.com/documentation/web-api/) to get user's playlists and allow them to listen to music.
+SunflowerTunes uses a Airtable api (https://developer.spotify.com/documentation/web-api/) to get playlists and allow them to listen to tunes.
 
 ```
-"href": "https://api.spotify.com/v1/playlists/1gEZ8Pq4cNl84HnSY2BQgW",
-      "id": "1gEZ8Pq4cNl84HnSY2BQgW",
-      "images": [
-        {
-          "height": null,
-          "url": "https://i.scdn.co/image/ab67706c0000bebb5a13d6488e036c0f11b61c9d",
-          "width": null
-        }
-      ],
-      "name": "Afro-Hits| Burna Boy| Twice As Tall| Wizkid| Smile |Master KG |Jerusalema |Omah Lay |Get Layd ",
-      "owner": {
-        "display_name": "Pepperstewplaylist",
-        "external_urls": {
-          "spotify": "https://open.spotify.com/user/g46se11z5yt6pqa2l9e17vh3j"
-        },
+[
+    {
+        "id": "att6f75cc83f1b648",
+        "size": 26317,
+        "url": "https://www.filepicker.io/api/file/5YTJXioCQG0tYWPw6OPw",
+        "type": "image/jpeg",
+        "filename": "33823_3_xl.jpg",
+        "thumbnails": {
+            "small": {
+                 "url": "https://www.filepicker.io/api/file/Dy5gioxaShSUvHX0LgIC",
+                 "width": 54,
+                 "height": 36
+             },
+            "large": {
+                 "url": "https://www.filepicker.io/api/file/ueYi00yRiqhuUn420UZA",
+                 "width": 197,
+                 "height": 131
+             }
+         }
+    }
+]
 ```
 
 ## Wireframes
