@@ -44,17 +44,13 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP 
 
 - Select API for project
-- Add auth to get user's info
-- Add search functionality
-- Allow users to create & modify playlist
-- Add playback functionality to allow users to change track 
-- Display user's spotify profile picture
+- Add playback functionality to display tunes
+- Add like & dislike buttons
 - Make site responsive (mobile, tablet, desktop)
 
 #### PostMVP  
 
 - Stylize playback buttons
-- Stylize progress bar
 - Add animation
 
 
@@ -81,17 +77,12 @@ If I come into any problems I plan to reach out to my instrustors and try and ge
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | App Skeleton Structure | H | 2.5hrs| N/A | N/A |
-| Add auth function | H | 2hrs| N/A | N/A |
-| Add search function | H | 2hrs| N/A | N/A |
 | Add createPlaylist function | H | 3hrs| N/A | N/A |
-| Add modifyPlaylist function | H | 3hrs| N/A | N/A |
-| Add user class | H | 2hrs| N/A | N/A |
 | Add dislike/like function | H | 1hrs| N/A | N/A |
-| Display User's profile picture | H | 1hrs| N/A | N/A |
 | Add playback function | H | 2hrs| N/A | N/A |
 | Post MVPs | L | 3hrs| N/A | N/A |
 | Responsive Site (mobile, tablet, desktop) | H | 3hrs| N/A | N/A |
-| Total | H | 25hrs| N/A | N/A |
+| Total | H | 14.5hrs| N/A | N/A |
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
