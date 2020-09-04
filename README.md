@@ -46,6 +46,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 - Select API for project
 - Add playback functionality to display tunes
 - Add like & dislike buttons
+- Add list of tunes
 - Make site responsive (mobile, tablet, desktop)
 
 #### PostMVP  
