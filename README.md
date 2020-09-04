@@ -70,13 +70,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
+|Sept. 04| Project Approval | Incomplete
+|Sept. 09| Core Structure Skeleton (HTML, CSS, JS, REACT) | Incomplete
+|Sept. 10| Core MVPs | Incomplete
+|Sept. 11| Post MVPs | Incomplete
+|Sept. 12| Presentations | Incomplete
 
 ## Priority Matrix
 
