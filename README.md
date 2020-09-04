@@ -80,18 +80,18 @@ Heading into project week and with all your planning in mind, consider your Stre
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| App Skeleton Structure | H | 1.5hrs| N/A | N/A |
-| Add auth function | H | 1hrs| N/A | N/A |
-| Add search function | H | 1hrs| N/A | N/A |
-| Add createPlaylist function | H | 1hrs| N/A | N/A |
-| Add modifyPlaylist function | H | 1hrs| N/A | N/A |
-| Add user class | H | 1hrs| N/A | N/A |
+| App Skeleton Structure | H | 2.5hrs| N/A | N/A |
+| Add auth function | H | 2hrs| N/A | N/A |
+| Add search function | H | 2hrs| N/A | N/A |
+| Add createPlaylist function | H | 3hrs| N/A | N/A |
+| Add modifyPlaylist function | H | 3hrs| N/A | N/A |
+| Add user class | H | 2hrs| N/A | N/A |
 | Add dislike/like function | H | 1hrs| N/A | N/A |
 | Display User's profile picture | H | 1hrs| N/A | N/A |
-| Add playback function | H | 1hrs| N/A | N/A |
-| Post MVPs | L | 1hrs| N/A | N/A |
+| Add playback function | H | 2hrs| N/A | N/A |
+| Post MVPs | L | 3hrs| N/A | N/A |
 | Responsive Site (mobile, tablet, desktop) | H | 3hrs| N/A | N/A |
-| Total | H | 13.5hrs| N/A | N/A |
+| Total | H | hrs| N/A | N/A |
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
