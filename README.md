@@ -13,27 +13,31 @@ Welcome! SunflowerTunes is a music web application that allows you to jam anywhe
 SunflowerTunes uses a Airtable api (https://airtable.com/appwmk7KWbWQtvEEW/api/docs#javascript/table:table%201:fields) to get playlists and allow them to listen to tunes.
 
 ```
-[
-    {
-        "id": "att6f75cc83f1b648",
-        "size": 26317,
-        "url": "https://www.filepicker.io/api/file/5YTJXioCQG0tYWPw6OPw",
-        "type": "image/jpeg",
-        "filename": "33823_3_xl.jpg",
-        "thumbnails": {
-            "small": {
-                 "url": "https://www.filepicker.io/api/file/Dy5gioxaShSUvHX0LgIC",
-                 "width": 54,
-                 "height": 36
-             },
-            "large": {
-                 "url": "https://www.filepicker.io/api/file/ueYi00yRiqhuUn420UZA",
-                 "width": 197,
-                 "height": 131
-             }
-         }
-    }
-]
+{
+    "records": [
+        {
+            "id": "recRtrLCw0wK269CC",
+            "fields": {
+                "link": "https://youtu.be/YRhBfL3GEjQ",
+                "title": "VIBRATION",
+                "artist": "FIREBOY DML "
+            },
+            "createdTime": "2020-09-04T19:37:01.000Z"
+        },
+        {
+            "id": "recZU8VO8KR7JfY9v",
+            "fields": {},
+            "createdTime": "2020-09-04T19:37:01.000Z"
+        },
+        {
+            "id": "rec7O6DL7LQ60NJ03",
+            "fields": {},
+            "createdTime": "2020-09-04T19:37:01.000Z"
+        }
+    ],
+    "offset": "rec7O6DL7LQ60NJ03"
+}
+
 ```
 
 ## Wireframes
@@ -49,17 +53,18 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### MVP 
 
-- Select API for project
+- Add tune form (adding to exsiting playlist)
 - Add playback functionality to display tunes
-- Add like & dislike buttons
+- Make app responsive (mobile, tablet, phone)
 - Add list of tunes
-- Make site responsive (mobile, tablet, desktop)
+- Create a share button 
+- Add comment section 
 
 #### PostMVP  
 
 - Stylize playback buttons
 - Add animation
-
+- Add like & dislike buttons
 
 ## SWOT Analysis
 
