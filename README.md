@@ -42,17 +42,20 @@ SunflowerTunes uses a Spotify api (https://developer.spotify.com/documentation/w
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Select API for project
+- Add auth to get user's info
+- Add search functionality
+- Allow users to create & modify playlist
+- Add playback functionality to allow users to change track 
+- Display user's spotify profile picture
+- Make site responsive (mobile, tablet, desktop)
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Stylize playback buttons
+- Stylize progress bar
+- Add animation
 
 
 ## SWOT Analysis
