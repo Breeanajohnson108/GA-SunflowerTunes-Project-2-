@@ -60,7 +60,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## SWOT Analysis
 
-Heading into project week and with all your planning in mind, consider your Strengths, Weaknesses, Opportunities, and Threats as they relate to your final project. How will you overcome your weaknesses and threats? 
+If I come into any problems I plan to reach out to my instrustors and try and get help with any issues I am having with this project.
 
 ## Project Schedule
 
