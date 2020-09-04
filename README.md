@@ -91,7 +91,7 @@ Heading into project week and with all your planning in mind, consider your Stre
 | Add playback function | H | 2hrs| N/A | N/A |
 | Post MVPs | L | 3hrs| N/A | N/A |
 | Responsive Site (mobile, tablet, desktop) | H | 3hrs| N/A | N/A |
-| Total | H | hrs| N/A | N/A |
+| Total | H | 25hrs| N/A | N/A |
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
