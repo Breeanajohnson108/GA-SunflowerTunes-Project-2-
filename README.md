@@ -88,9 +88,18 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| App Skeleton Structure | H | 1.5hrs| N/A | N/A |
+| Add auth function | H | 1hrs| N/A | N/A |
+| Add search function | H | 1hrs| N/A | N/A |
+| Add createPlaylist function | H | 1hrs| N/A | N/A |
+| Add modifyPlaylist function | H | 1hrs| N/A | N/A |
+| Add user class | H | 1hrs| N/A | N/A |
+| Add dislike/like function | H | 1hrs| N/A | N/A |
+| Display User's profile picture | H | 1hrs| N/A | N/A |
+| Add playback function | H | 1hrs| N/A | N/A |
+| Post MVPs | H | 1hrs| N/A | N/A |
+| Responsive Site (mobile, tablet, desktop) | H | 3hrs| N/A | N/A |
+| Total | H | 13.5hrs| N/A | N/A |
 
 ## Code Snippet
 
