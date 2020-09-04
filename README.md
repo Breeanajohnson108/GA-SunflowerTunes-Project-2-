@@ -37,10 +37,6 @@ SunflowerTunes uses a Spotify api (https://developer.spotify.com/documentation/w
 
 ![Screenshot](https://i.imgur.com/WocE8Wq.png)
 
-
-A visual tree of your components, depicting the parent/child relationships, as well as an indication of which will be class components, requiring state, and which will be functional components, taking props.
-
-
 ### MVP/PostMVP
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
