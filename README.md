@@ -4,7 +4,7 @@
 
 ## Project Name
 
-The name of your project.
+SunflowerTunes
 
 ## Project Description
 
