@@ -1,18 +1,16 @@
 # SunflowerTunes 🌻
 
- Project Overview
-
 ## Project Name
 
 SunflowerTunes
 
 ## Project Description
 
-Welcome! SunflowerTunes is a music web application that allows you to jam anywhere at anytime.
+Welcome! SunflowerTunes is a music web application that allows you to jam anywhere at anytime. SunflowerTunes will brighten your day, or just allow you to go to your personal getaway. This music app is being built with React and using Airtable. Sunflowertunes will be avavilabe in different views mobile, tablet, and desktop mode. 
 
 ## API and Data Sample
 
-SunflowerTunes uses a Spotify api (https://developer.spotify.com/documentation/web-api/) to get user's playlists and allow them to listent to music.
+SunflowerTunes uses a Spotify api (https://developer.spotify.com/documentation/web-api/) to get user's playlists and allow them to listen to music.
 
 ## Wireframes
 
