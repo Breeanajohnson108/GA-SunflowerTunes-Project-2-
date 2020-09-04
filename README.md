@@ -32,9 +32,11 @@ SunflowerTunes uses a Spotify api (https://developer.spotify.com/documentation/w
 
 ## Wireframes
 
-https://imgur.com/WocE8Wq
 
 ## Component Heirarchy
+
+![Screenshot](https://ibb.co/8jYY3M1)
+
 
 A visual tree of your components, depicting the parent/child relationships, as well as an indication of which will be class components, requiring state, and which will be functional components, taking props.
 
