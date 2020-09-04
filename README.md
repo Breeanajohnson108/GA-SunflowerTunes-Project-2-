@@ -18,6 +18,11 @@ SunflowerTunes uses a Spotify api (https://developer.spotify.com/documentation/w
 
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
+## Component Heirarchy
+
+A visual tree of your components, depicting the parent/child relationships, as well as an indication of which will be class components, requiring state, and which will be functional components, taking props.
+
+
 ### MVP/PostMVP
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
@@ -34,6 +39,11 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Add second API
 - Use local storage to save user favorites
+
+
+## SWOT Analysis
+
+Heading into project week and with all your planning in mind, consider your Strengths, Weaknesses, Opportunities, and Threats as they relate to your final project. How will you overcome your weaknesses and threats? 
 
 ## Project Schedule
 
