@@ -1,17 +1,26 @@
-import React from 'react'
+import React, {useState} from 'react'
 import GetData from './GetData'
 import './App.css'
+import PlayList from './PlayList' 
 
 export default function Playtunes({ artist, title, link, thumbnail })
-{
-  console.log(artist)
+{  
+  let [showVid, setshowVid] = useState(false)
   return (
-    // <iframe width="420" height="315">
-    //   <source src={link}></source>
-    // </iframe>
 
-    <iframe className="videos" width="560" height="315" src={link}
-      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen ></iframe >
+    <div>
+          <button className="playMe" onClick=
+          {
+            () => setshowVid(!showVid)
+          }>Play Me</button>
+      {
+          showVid &&
+          <iframe className="videos" width="560" height="315" src={link}
+          frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen ></iframe >
+      }
+    </div>
+    
+    
   )
 }
