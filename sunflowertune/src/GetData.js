@@ -1,5 +1,6 @@
 import React from 'react'
 import PlayList from './PlayList';
+import PlayTunes from './Playtunes'
 
 export default class GetData extends React.Component
 {
@@ -16,14 +17,6 @@ export default class GetData extends React.Component
     res =>
       {
         this.setState({tunesData: res.records});
-        // for (let property in data)
-        // {
-        //   let properties = data[property].fields;
-        //   let title = properties.title;
-        //   let artist = properties.artist;
-        //   let link = properties.link;
-        //   let coverImage = properties.thumbnail;
-        // }
       }
     ).catch(error => console.log(error))
   }
@@ -32,9 +25,16 @@ export default class GetData extends React.Component
   {
     let {tunesData} = this.state
     return (
-      tunesData.map(data => (
-        <PlayList {...data.fields} key={data.fields.id} />
-      ))
+     
+      tunesData.map(data =>
+        (
+          <>
+            <PlayList {...data.fields} key={data.id} />
+            <PlayTunes {...data.fields} key={data.fields.id} />
+          </>
+          
+        ))
+      
     )
   }
 }

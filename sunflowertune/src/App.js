@@ -9,6 +9,7 @@ function App()
 {
   return (
     <>
+      <h1 id="title">SunflowerTunes</h1>
       <GetData />
       <PlayList />
       <PlayTunes />
