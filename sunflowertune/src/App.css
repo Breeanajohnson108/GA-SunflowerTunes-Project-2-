@@ -22,6 +22,7 @@
 {
   width: 100px;
   height: 100px;
+  float: left;
 }
 
 #title
@@ -30,8 +31,23 @@
   font-size: 5rem;
 }
 
+.playMe
+{
+  margin-top: 110px;
+  margin-left: -80px;
+  float: left;
+}
+
 .videos
 {
-   /* visibility: hidden;
-  display: none; */
+  position: fixed;
+  top: 65%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -320px;
+}
+
+.vidContainer
+{
+  float: left;
 }

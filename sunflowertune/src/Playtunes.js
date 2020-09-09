@@ -7,8 +7,8 @@ export default function Playtunes({ artist, title, link, thumbnail })
 {  
   let [showVid, setshowVid] = useState(false)
   return (
-
-    <div>
+    
+    <div className="vidContainer">
           <button className="playMe" onClick=
           {
             () => setshowVid(!showVid)
