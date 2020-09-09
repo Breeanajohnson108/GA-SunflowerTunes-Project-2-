@@ -1,5 +1,4 @@
 import React from 'react'
-import axios from 'axios'
 import PlayList from './PlayList';
 
 export default class GetData extends React.Component

@@ -1,0 +1,17 @@
+.scrollList {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollList a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.scrollList a:hover {
+  background-color: #777;
+}
