@@ -16,7 +16,8 @@ export default class GetData extends React.Component
     fetch('https://api.airtable.com/v0/appwmk7KWbWQtvEEW/playlist?api_key=keyHS2cdOW12Q7yll').then(res => res.json()).then(
     res =>
       {
-        this.setState({tunesData: res.records});
+        this.setState({ tunesData: res.records });
+        console.log(res.records)
       }
     ).catch(error => console.log(error))
   }
