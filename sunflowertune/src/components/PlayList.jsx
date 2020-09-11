@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../App.css'
-import Player from './Player'
+import Tune from './Tune';
 
 
 //Creating a function called 'PlayLists' that will pass in data(tunes)
@@ -15,6 +15,7 @@ let PlayLists = ({ tunes }) =>
         <div className="column">
           <img className="cover" src={tunesData.fields.thumbnail}></img>
           <h3 className="coverTitle">{tunesData.fields.title}</h3>
+          <Tune video={tunesData} />
         </div>
         </div>
     ))

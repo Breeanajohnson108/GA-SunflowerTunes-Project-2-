@@ -1,56 +1,42 @@
-body
-{
+body {
   /* Got image from www.wallpaperflare.com */
-  background-image: url('https://c4.wallpaperflare.com/wallpaper/315/320/18/music-digital-graphic-motion-wallpaper-preview.jpg');
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/315/320/18/music-digital-graphic-motion-wallpaper-preview.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.column
-{
+.column {
   float: left;
   margin-left: 15px;
   align-content: center;
-  
-  
 }
 
-.cover:hover
-{
+.cover:hover {
   width: 150px;
   height: 150px;
 }
-.row
-{
+.row {
   margin-left: 60px;
   margin-top: 10px;
 }
 
-.cover
-{
+.cover {
   width: 90px;
   height: 100px;
   float: left;
   margin-bottom: 10px;
 }
 
-#title
-{
+#title {
   margin-left: 390px;
   font-size: 5rem;
   margin-top: -10px;
   color: white;
 }
 
-.playMe
-{
-  margin-top: 130px;
-  margin-left: -75px;
-  float: left;
-}
 
-.videos
-{
+
+.videos {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -58,8 +44,7 @@ body
   margin-left: -300px;
 }
 
-.like
-{
+.like {
   position: fixed;
   top: 95%;
   left: 50%;
@@ -69,8 +54,7 @@ body
   height: 50px;
 }
 
-.disLike
-{
+.disLike {
   position: fixed;
   top: 95%;
   left: 50%;
@@ -80,8 +64,7 @@ body
   height: 50px;
 }
 
-.form
-{
+.form {
   position: fixed;
   top: 55%;
   left: 50px;
@@ -92,19 +75,12 @@ body
   color: white;
 }
 
-.vidContainer
-{
+.vidContainer {
   float: left;
 }
 
-.coverTitle
-{
+.coverTitle {
   color: white;
   text-align: center;
   font-size: 11px;
 }
-
-
-
-
-

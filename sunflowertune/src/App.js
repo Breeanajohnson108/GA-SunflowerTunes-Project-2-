@@ -37,7 +37,6 @@ function App() {
           <PlayList tunes={tunes}/>
         </Route>
         
-      <Player tunes={tunes} />
       <Request tunes={tunes}/>
             
     </>
