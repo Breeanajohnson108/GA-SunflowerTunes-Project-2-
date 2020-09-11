@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import PlayList from './PlayList'
+import PlayList from './components/PlayList'
 import axios from 'axios'
 import PlayTunes from './Playtunes'
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
