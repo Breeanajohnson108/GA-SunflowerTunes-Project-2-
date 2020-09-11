@@ -55,7 +55,7 @@ SunflowerTunes uses a Airtable api (https://airtable.com/appwmk7KWbWQtvEEW/api/d
 - Make app responsive (mobile, tablet, phone)
 - Add list of tunes
 - Create a a submit form 
--- Add like & dislike buttons
+- Add like & dislike buttons
 
 #### PostMVP  
 
