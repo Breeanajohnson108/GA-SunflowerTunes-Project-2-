@@ -1,17 +1,26 @@
 import React from 'react'
-import GetData from './GetData'
 import './App.css'
+import App from './App'
+import { Link } from 'react-router-dom'
 
 
-export default function PlayList({artist, title, link, thumbnail})
+
+export default function PlayList()
 {
   
-  console.log(thumbnail)
+  let tunesData = ({ tunes }) =>
+  {
+    let dataTunes = tunes.map((tunes) =>
+    {
+      <Link to={`/app/${tunes.artist}`} key={tunes.artist}></Link>
+    })
+  }
+  
+
+
   return (
       <div className="row">
-        <div className="column">
-          <img className="cover" src={thumbnail}></img>
-        </div>
+        
       </div>
   )
 }

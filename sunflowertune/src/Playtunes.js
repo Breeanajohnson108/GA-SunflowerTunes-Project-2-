@@ -1,5 +1,4 @@
 import React, { useState, state } from 'react'
-import GetData from './GetData'
 import './App.css'
 import PlayList from './PlayList'
 
@@ -7,7 +6,7 @@ import PlayList from './PlayList'
 
 export default function Playtunes({ artist, title, link, thumbnail }) {
   let [showVid, setshowVid] = useState(false)
-  let setlikes = 0;
+  const [likes, setlikes] = useState(0);
   return (
 
     <div className="vidContainer">
@@ -16,14 +15,17 @@ export default function Playtunes({ artist, title, link, thumbnail }) {
           () => setshowVid(!showVid)
         }>Play Me</button>
       {
+        // Found the iframe from W3schools, citing
         showVid &&
         <div>
           <iframe className="videos" width="560" height="315" src={link}
             frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen ></iframe >
-          <button className="like" onClick={(setlikes) => setlikes++}>Likes: {setlikes}</button>
+
+          {/* Creating like and dislike button */}
+          <button className="like" onClick={() => setlikes(likes + 1)}>Likes: {likes}</button>
           <button className="disLike">Dislike</button>
-          
+
           {/* Creating a form */}
           <form className="form">
             <h1>Tunes Requests</h1>
