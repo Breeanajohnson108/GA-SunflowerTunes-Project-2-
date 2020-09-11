@@ -6,6 +6,7 @@ import '../App.css'
 let Request = ({ tunes }) => 
 {
   let newRequest = 
+    // Used "https://reactjs.org/docs/forms.html" to create react style form
     <form className="form">
       <h1>Request tunes</h1>
         <label>
