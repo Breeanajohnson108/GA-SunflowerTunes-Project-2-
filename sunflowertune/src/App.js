@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import PlayList from './components/PlayList'
+import Player from './components/Player'
+import Request from './components/Request'
 import axios from 'axios'
-import PlayTunes from './Playtunes'
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 
@@ -26,15 +27,14 @@ function App() {
   return (
     <>
       <h1 id="title">SunflowerTunes</h1>
-      <Switch>
+      
         <Route path="/">
           <PlayList tunes={tunes}/>
         </Route>
-        <Route path="/playtunes">
-          <PlayTunes />
-        </Route>
-      </Switch>
-      
+        
+      <Player tunes={tunes} />
+      <Request tunes={tunes}/>
+            
     </>
   )
 }
