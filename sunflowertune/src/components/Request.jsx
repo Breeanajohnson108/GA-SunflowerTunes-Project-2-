@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../App.css'
 
-
+//Creating a function called 'Request' that will pass in data(tunes)
 let Request = ({ tunes }) => 
 {
   let newRequest = 
