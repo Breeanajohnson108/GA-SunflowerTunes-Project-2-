@@ -8,7 +8,7 @@ let Like = ({ tunes }) =>
   //Setting up a State to hold the number of times the like button has been pressed
   let [Likes, setlikes] = useState(false)
   //Creating a variable to hold my like button
-  let newLike = <button className="like"  onClick={() => setlikes(Likes + 1)}>Likes: {Likes}</button>
+  let newLike = <button className="like" onClick={() => setlikes(Likes + 1)}>Likes: {Likes}</button>
   //return button 
   return newLike
 }

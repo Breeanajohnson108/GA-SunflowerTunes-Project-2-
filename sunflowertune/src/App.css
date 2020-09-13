@@ -1,6 +1,6 @@
 body {
-  /* Got image from www.wallpaperflare.com */
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/315/320/18/music-digital-graphic-motion-wallpaper-preview.jpg");
+  /* Got image from www.wa");*/
+  background-image: url('https://images.pexels.com/photos/1249734/pexels-photo-1249734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -28,10 +28,13 @@ body {
 }
 
 #title {
-  margin-left: 390px;
+  margin-left: 290px;
   font-size: 5rem;
   margin-top: -10px;
-  color: white;
+  color: yellow;
+  text-align: center;
+  background-color: black;
+  width: 650px;
 }
 
 
@@ -52,9 +55,10 @@ body {
   margin-left: -220px;
   width: 100px;
   height: 50px;
+  background-image: url('https://www.flaticon.com/svg/static/icons/svg/25/25423.svg');
 }
 
-.disLike {
+.dislike {
   position: fixed;
   top: 95%;
   left: 50%;
@@ -70,7 +74,7 @@ body {
   left: 50px;
   margin-top: -50px;
   margin-left: 20px;
-  width: 100px;
+  width: 200px;
   height: 50px;
   color: white;
 }
@@ -83,4 +87,16 @@ body {
   color: white;
   text-align: center;
   font-size: 11px;
+}
+
+.formLabel
+{
+  background-color: black;
+  padding: 1px;
+}
+
+.formTitle
+{
+  background-color: black;
+  padding: 2px;
 }
