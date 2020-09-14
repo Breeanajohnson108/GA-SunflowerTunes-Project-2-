@@ -70,12 +70,12 @@ If I come into any problems I plan to reach out to my instrustors and try and ge
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Sept. 04| Project Approval | Incomplete
-|Sept. 07| Core Structure Skeleton (HTML, CSS,) | Incomplete
-|Sept. 08| Core Structure Skeleton (JS, REACT) | Incomplete
-|Sept. 09| Core MVPs | Incomplete
-|Sept. 10| Post MVPs | Incomplete
-|Sept. 11| Presentations | Incomplete
+|Sept. 04| Project Approval | complete
+|Sept. 07| Core Structure Skeleton (HTML, CSS,) | complete
+|Sept. 08| Core Structure Skeleton (JS, REACT) | complete
+|Sept. 09| Core MVPs | complete
+|Sept. 10| Post MVPs | complete
+|Sept. 11| Presentations | complete
 
 ## Priority Matrix
 
@@ -85,13 +85,13 @@ If I come into any problems I plan to reach out to my instrustors and try and ge
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| App Skeleton Structure | H | 2.5hrs| N/A | N/A |
-| Add createPlaylist function | H | 3hrs| N/A | N/A |
-| Add dislike/like function | H | 1hrs| N/A | N/A |
-| Add playback function | H | 2hrs| N/A | N/A |
-| Post MVPs | L | 3hrs| N/A | N/A |
-| Responsive Site (mobile, tablet, desktop) | H | 3hrs| N/A | N/A |
-| Total | H | 14.5hrs| N/A | N/A |
+| App Skeleton Structure | H | 2.5hrs| N/A | 5hrs|
+| Add createPlaylist function | H | 3hrs| N/A | 3hrs |
+| Add dislike/like function | H | 1hrs| N/A | 3hrs |
+| Add playback function | H | 2hrs| N/A | 2hrs|
+| Post MVPs | L | 3hrs| N/A | 2hrs |
+| Responsive Site (mobile, tablet, desktop) | H | 3hrs| N/A | 2hrs|
+| Total | H | 14.5hrs| N/A | 17hrs|
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
