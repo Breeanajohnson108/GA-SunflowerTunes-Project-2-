@@ -81,93 +81,9 @@ let Request = () => {
           Album Cover link:
         <input type="text" name="thumbnail" value={fields.thumbnail} onChange={(e) => handleChange(e)} />
         </label>
-        <input type="submit" value="Submit" />
+        <input id="submitBtn" type="submit" value="Submit" />
     </form>
   )
-    // ))
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// //Creating a function called 'Request' that will pass in data(tunes)
-// let Request = () => 
-// {
-//   let newRequest = 
-
-//   const [tunes, setTunes] = useState([])
-//   useEffect(() =>
-//   {
-//     let data = async () => {
-//       let airtableLink = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/playlist`
-//       let recordData = await axios.get(airtableLink,
-//         {
-//           headers:
-//           {
-//             'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
-//           },
-//         })
-//       setTunes(recordData.data.records)
-//     };
-//     data()
-//   }, [])
-
-
-
-
-
-//     // Used "https://reactjs.org/docs/forms.html" to create react style form
-//     <form className="form">
-//       <h1 className="formTitle">Request tunes</h1>
-//         <label className="formLabel">
-//         Artist:
-//           <br></br>
-//         <br></br>
-//           <input type="text" name="name" />
-//       </label>
-//       <br></br>
-//       <br></br>
-//       <label className="formLabel">
-//           Title:
-//           <br></br>
-//           <input type="text" name="name" />
-//       </label>
-//       <br></br>
-//       <br></br>
-//       <label className="formLabel">
-//           Embedded Link(video link):
-//           <br></br>
-//           <input type="text" name="name" />
-//       </label>
-//       <br></br>
-//       <br></br>
-//       <label className="formLabel">
-//           Album Cover link:
-//           <br></br>
-//           <input type="text" name="name" />
-//       </label>
-//       <br></br>
-//       <input type="submit" value="Submit" />
-//       </form>
-//   return newRequest
-// }
 
 export default Request;

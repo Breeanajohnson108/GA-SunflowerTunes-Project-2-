@@ -4,6 +4,7 @@ import Player from './components/Player'
 import Request from './components/Request'
 import axios from 'axios'
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import Instructions from './components/Instructions';
 
 
 
@@ -42,7 +43,9 @@ function App() {
           <PlayList tunes={tunes}/>
         </Route>
         
-      <Request tunes={tunes}/>
+      <Request tunes={tunes} />
+      
+      <Instructions />
             
     </>
   )

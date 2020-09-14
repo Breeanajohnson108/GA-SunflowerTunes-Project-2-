@@ -3,6 +3,8 @@ body {
   background-image: url('https://images.pexels.com/photos/1249734/pexels-photo-1249734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .column {
@@ -28,7 +30,7 @@ body {
 }
 
 #title {
-  margin-left: 290px;
+  margin-left: 350px;
   font-size: 5rem;
   margin-top: -10px;
   color: yellow;
@@ -41,7 +43,7 @@ body {
 
 .videos {
   position: fixed;
-  top: 50%;
+  top: 55%;
   left: 50%;
   margin-top: -50px;
   margin-left: -300px;
@@ -49,30 +51,35 @@ body {
 
 .like {
   position: fixed;
-  top: 95%;
+  top: 100%;
   left: 50%;
   margin-top: -50px;
   margin-left: -220px;
   width: 100px;
   height: 50px;
-  background-image: url('https://www.flaticon.com/svg/static/icons/svg/25/25423.svg');
+  background-color: black;
+  color: white;
+  border-radius: 5px;
 }
 
 .dislike {
   position: fixed;
-  top: 95%;
+  top: 100%;
   left: 50%;
   margin-top: -50px;
   margin-left: 20px;
   width: 100px;
   height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
 }
 
 .form {
   position: fixed;
   top: 55%;
   left: 50px;
-  margin-top: -50px;
+  margin-top: -60px;
   margin-left: 20px;
   width: 200px;
   height: 50px;
@@ -89,14 +96,190 @@ body {
   font-size: 11px;
 }
 
-.formLabel
+form label
 {
   background-color: black;
   padding: 1px;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.formTitle
+form input
+{
+  display: block;
+  margin-top: 3px;
+}
+
+.form h1
 {
   background-color: black;
   padding: 2px;
+  border-radius: 5px;
+}
+
+#submitBtn
+{
+  margin-left: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.playMe
+{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.lists
+{
+  position: fixed;
+  top: 55%;
+  right: 70px;
+  margin-top: -60px;
+  margin-right: 40px;
+  width: 200px;
+  height: 50px;
+  color: white;
+}
+
+.listTitle
+{
+  font-size: 2rem;
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: -75px;
+}
+
+.eachList
+{
+  background-color: black;
+  text-align: center;
+  border-radius: 5px;
+  width: 250px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 425px) 
+{
+  #title
+  {
+    font-size: 2rem;
+    width: 240px;
+    margin-left: 50px;
+    margin-top: 5px;
+  }
+  .column 
+  {
+    float: left;
+    
+    padding: 10px;
+    width: 300px;
+  }
+  /* Clear floats after the columns */
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.coverTitle
+{
+  margin-top: 120px;
+  margin-right: 390px;
+}
+
+body
+{
+  height: 100%;
+}
+
+.form
+{
+  visibility: hidden;
+}
+
+.lists
+{
+  visibility: hidden;
+}
+
+.videos
+{
+  margin-left: -170px;
+  width: 300px;
+  height: 200px;
+}
+
+.like
+{
+  margin-left: -140px;
+  margin-top: -200px;
+}
+
+.dislike
+{
+  margin-right: -160px;
+  margin-top: -200px;
+}
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) 
+{
+  #title
+  {
+    margin-left: 70px;
+    color: white;
+  }
+
+  body 
+  {
+    background-color: pink;
+    height: 100%;
+  }
+
+  .form
+  {
+    top: 700px;
+  }
+
+  .lists
+  {
+    top: 700px;
+  }
+
+  .videos
+  {
+    margin-left: -170px;
+    top: 590px;
+    width: 350px;
+    height: 200px;
+  }
+
+  .form
+  {
+    margin-left: -30px;
+    top: 550px;
+  }
+
+  .lists
+  {
+    margin-right: 5px;
+    top: 550px;
+  }
+
+  .cover
+  {
+    margin-top: 5px;
+  }
 }
